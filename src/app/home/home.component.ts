@@ -21,7 +21,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {}
 
   submitState() {
-    console.log('submitState', this.value);
     this.appState.set({ value: this.value });
     this.value = '';
   }
