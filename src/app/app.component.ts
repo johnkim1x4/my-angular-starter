@@ -19,8 +19,10 @@ import { AppState } from './app.service';
     './app.component.css'
   ],
   template: `
+    <header>
+    </header>
     <main>
-      <home></home>
+      Angular App
     </main>
     <footer>
     </footer>
