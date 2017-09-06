@@ -22,9 +22,6 @@ import { AppState } from './app.service';
     <main>
       <home></home>
     </main>
-
-    <pre class="app-state">this.appState.state = {{ appState.state.value }}</pre>
-
     <footer>
     </footer>
   `

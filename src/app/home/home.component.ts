@@ -12,16 +12,9 @@ import { Title } from './title';
   templateUrl: './home.component.html'
 })
 export class HomeComponent implements OnInit {
-  value: string = ''
-
   constructor(
     public appState: AppState
   ) {}
 
   ngOnInit() {}
-
-  submitState() {
-    this.appState.set({ value: this.value });
-    this.value = '';
-  }
 }
