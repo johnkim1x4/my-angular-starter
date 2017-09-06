@@ -34,7 +34,6 @@ export class AppState {
     /**
      * Internally mutate our state.
      */
-     debugger
     return this._state = {...this._state, ...newStates};
   }
 
