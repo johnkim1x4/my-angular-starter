@@ -30,11 +30,12 @@ export class AppState {
     return state.hasOwnProperty(prop) ? state[prop] : state;
   }
 
-  public set(prop: string, value: any) {
+  public set(newStates: any) {
     /**
      * Internally mutate our state.
      */
-    return this._state[prop] = value;
+     debugger
+    return this._state = {...this._state, ...newStates};
   }
 
   private _clone(object: InternalStateType) {
